@@ -1,9 +1,11 @@
-import React from 'react'
+import MaxWidthWrapper from '@/components/Elements/MaxWidthWrapper'
+import Header from '@/components/Home/Header/Header'
+import Image from 'next/image'
 
-const page = () => {
+export default function Home() {
   return (
-    <div>page</div>
+      <section>
+        <Header/>
+      </section>
   )
 }
-
-export default page
